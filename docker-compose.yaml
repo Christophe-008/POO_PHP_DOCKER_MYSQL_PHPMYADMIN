@@ -1,6 +1,7 @@
 services:
   php:
     image: php:8.3-apache
+    build: .
     volumes:
       - ./src:/var/www/html # Montez le répertoire contenant vos scripts PHP
     ports:
