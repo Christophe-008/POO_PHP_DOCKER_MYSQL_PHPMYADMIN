@@ -1,0 +1,15 @@
+{
+  "name": "chris/docker",
+  "autoload": {
+    "psr-4": {
+      "MonApp\\": "classes/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Christophe Delobel",
+      "email": "cdelobel.ext@simplon.co"
+    }
+  ],
+  "require": {}
+}
